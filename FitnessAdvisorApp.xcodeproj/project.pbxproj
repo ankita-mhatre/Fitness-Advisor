@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB138C252092233B00C4068B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB138C242092233B00C4068B /* StartViewController.swift */; };
+		BB138C272092244900C4068B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB138C262092244900C4068B /* Utils.swift */; };
+		BB138C29209258B600C4068B /* BodyTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB138C28209258B600C4068B /* BodyTypeViewController.swift */; };
+		BB138C2B20925E2E00C4068B /* BasicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB138C2A20925E2E00C4068B /* BasicDetailsViewController.swift */; };
+		BB138C2D20925F1300C4068B /* AdditionalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB138C2C20925F1300C4068B /* AdditionalDetailsViewController.swift */; };
+		BB1D3F56209057D2003F89EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1D3F55209057D2003F89EB /* AppDelegate.swift */; };
+		BB1D3F5B209057D2003F89EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1D3F59209057D2003F89EB /* Main.storyboard */; };
+		BB1D3F5E209057D2003F89EB /* FitnessAdvisorApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB1D3F5C209057D2003F89EB /* FitnessAdvisorApp.xcdatamodeld */; };
+		BB1D3F63209057D2003F89EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1D3F61209057D2003F89EB /* LaunchScreen.storyboard */; };
+		BB1D3F6E209057D2003F89EB /* FitnessAdvisorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1D3F6D209057D2003F89EB /* FitnessAdvisorAppTests.swift */; };
+		BB1D3F79209057D2003F89EB /* FitnessAdvisorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1D3F78209057D2003F89EB /* FitnessAdvisorAppUITests.swift */; };
+		BB1D3F8820905E69003F89EB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1D3F8720905E69003F89EB /* SWRevealViewController.m */; };
+		BB1D3F8B2090620C003F89EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1D3F8A2090620C003F89EB /* ViewController.swift */; };
+		BB1D3F8D20907560003F89EB /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1D3F8C20907560003F89EB /* PersistenceService.swift */; };
+		BB56EC2020943D38004BEEFA /* Acoount_Info+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC1C20943D38004BEEFA /* Acoount_Info+CoreDataClass.swift */; };
+		BB56EC2120943D38004BEEFA /* Acoount_Info+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC1D20943D38004BEEFA /* Acoount_Info+CoreDataProperties.swift */; };
+		BB56EC2220943D38004BEEFA /* Health_Info+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC1E20943D38004BEEFA /* Health_Info+CoreDataClass.swift */; };
+		BB56EC2320943D38004BEEFA /* Health_Info+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC1F20943D38004BEEFA /* Health_Info+CoreDataProperties.swift */; };
+		BB56EC2520944C04004BEEFA /* DirectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC2420944C04004BEEFA /* DirectViewController.swift */; };
+		BB56EC2720945695004BEEFA /* DietTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC2620945695004BEEFA /* DietTableViewController.swift */; };
+		BB56EC29209456A8004BEEFA /* ExerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC28209456A8004BEEFA /* ExerciseTableViewController.swift */; };
+		BB56EC2B209456BB004BEEFA /* ExpertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC2A209456BB004BEEFA /* ExpertTableViewController.swift */; };
+		BB56EC2D209462D8004BEEFA /* DietTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC2C209462D8004BEEFA /* DietTableViewCell.swift */; };
+		BB56EC2F209462E7004BEEFA /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC2E209462E7004BEEFA /* ExerciseTableViewCell.swift */; };
+		BB56EC31209462F1004BEEFA /* ExpertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC30209462F1004BEEFA /* ExpertTableViewCell.swift */; };
+		BB56EC3320946A9E004BEEFA /* DisplayDietPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC3220946A9E004BEEFA /* DisplayDietPlanViewController.swift */; };
+		BB56EC3520947649004BEEFA /* DisplayExpertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC3420947649004BEEFA /* DisplayExpertViewController.swift */; };
+		BB56EC3720947C1C004BEEFA /* DisplayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC3620947C1C004BEEFA /* DisplayVideoViewController.swift */; };
+		BB56EC3920948D3E004BEEFA /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC3820948D3E004BEEFA /* LogOutViewController.swift */; };
+		BB56EC3B20949912004BEEFA /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC3A20949912004BEEFA /* MyProfileViewController.swift */; };
+		BB56EC3D2094A38F004BEEFA /* DisplayQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56EC3C2094A38F004BEEFA /* DisplayQuotesViewController.swift */; };
+		BB56ECB92094E132004BEEFA /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56ECB82094E132004BEEFA /* ApiViewController.swift */; };
+		BBC6B552209149DB00A02463 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B551209149DB00A02463 /* SignUpVC.swift */; };
+		BBC6B55420921A5A00A02463 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B55320921A5A00A02463 /* CoreDataHelper.swift */; };
+		BBFA675720927FCC007B0FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFA675620927FCB007B0FBA /* Assets.xcassets */; };
+		BBFA6759209283D4007B0FBA /* HealthPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFA6758209283D4007B0FBA /* HealthPlansViewController.swift */; };
+		BBFA67982092A4F6007B0FBA /* QuickTipsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFA67972092A4F6007B0FBA /* QuickTipsTableViewController.swift */; };
+		BBFA679A2092A7C6007B0FBA /* QuickTipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFA67992092A7C6007B0FBA /* QuickTipsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB1D3F6A209057D2003F89EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1D3F4A209057D2003F89EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1D3F51209057D2003F89EB;
+			remoteInfo = FitnessAdvisorApp;
+		};
+		BB1D3F75209057D2003F89EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1D3F4A209057D2003F89EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1D3F51209057D2003F89EB;
+			remoteInfo = FitnessAdvisorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB138C242092233B00C4068B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		BB138C262092244900C4068B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BB138C28209258B600C4068B /* BodyTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTypeViewController.swift; sourceTree = "<group>"; };
+		BB138C2A20925E2E00C4068B /* BasicDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDetailsViewController.swift; sourceTree = "<group>"; };
+		BB138C2C20925F1300C4068B /* AdditionalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalDetailsViewController.swift; sourceTree = "<group>"; };
+		BB1D3F52209057D2003F89EB /* FitnessAdvisorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessAdvisorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1D3F55209057D2003F89EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB1D3F5A209057D2003F89EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB1D3F5D209057D2003F89EB /* FitnessAdvisorApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessAdvisorApp.xcdatamodel; sourceTree = "<group>"; };
+		BB1D3F62209057D2003F89EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB1D3F64209057D2003F89EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1D3F69209057D2003F89EB /* FitnessAdvisorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAdvisorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1D3F6D209057D2003F89EB /* FitnessAdvisorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAdvisorAppTests.swift; sourceTree = "<group>"; };
+		BB1D3F6F209057D2003F89EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1D3F74209057D2003F89EB /* FitnessAdvisorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAdvisorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1D3F78209057D2003F89EB /* FitnessAdvisorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAdvisorAppUITests.swift; sourceTree = "<group>"; };
+		BB1D3F7A209057D2003F89EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1D3F8620905E68003F89EB /* FitnessAdvisorApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitnessAdvisorApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB1D3F8720905E69003F89EB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BB1D3F8920905E7A003F89EB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BB1D3F8A2090620C003F89EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB1D3F8C20907560003F89EB /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		BB56EC1C20943D38004BEEFA /* Acoount_Info+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Acoount_Info+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BB56EC1D20943D38004BEEFA /* Acoount_Info+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Acoount_Info+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BB56EC1E20943D38004BEEFA /* Health_Info+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health_Info+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BB56EC1F20943D38004BEEFA /* Health_Info+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health_Info+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BB56EC2420944C04004BEEFA /* DirectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectViewController.swift; sourceTree = "<group>"; };
+		BB56EC2620945695004BEEFA /* DietTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTableViewController.swift; sourceTree = "<group>"; };
+		BB56EC28209456A8004BEEFA /* ExerciseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewController.swift; sourceTree = "<group>"; };
+		BB56EC2A209456BB004BEEFA /* ExpertTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertTableViewController.swift; sourceTree = "<group>"; };
+		BB56EC2C209462D8004BEEFA /* DietTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTableViewCell.swift; sourceTree = "<group>"; };
+		BB56EC2E209462E7004BEEFA /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		BB56EC30209462F1004BEEFA /* ExpertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertTableViewCell.swift; sourceTree = "<group>"; };
+		BB56EC3220946A9E004BEEFA /* DisplayDietPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDietPlanViewController.swift; sourceTree = "<group>"; };
+		BB56EC3420947649004BEEFA /* DisplayExpertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayExpertViewController.swift; sourceTree = "<group>"; };
+		BB56EC3620947C1C004BEEFA /* DisplayVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayVideoViewController.swift; sourceTree = "<group>"; };
+		BB56EC3820948D3E004BEEFA /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		BB56EC3A20949912004BEEFA /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		BB56EC3C2094A38F004BEEFA /* DisplayQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayQuotesViewController.swift; sourceTree = "<group>"; };
+		BB56ECB82094E132004BEEFA /* ApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
+		BBC6B551209149DB00A02463 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		BBC6B55320921A5A00A02463 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		BBFA675620927FCB007B0FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBFA6758209283D4007B0FBA /* HealthPlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPlansViewController.swift; sourceTree = "<group>"; };
+		BBFA67972092A4F6007B0FBA /* QuickTipsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTipsTableViewController.swift; sourceTree = "<group>"; };
+		BBFA67992092A7C6007B0FBA /* QuickTipsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTipsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1D3F4F209057D2003F89EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1D3F66209057D2003F89EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1D3F71209057D2003F89EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1D3F49209057D2003F89EB = {
+			isa = PBXGroup;
+			children = (
+				BB1D3F54209057D2003F89EB /* FitnessAdvisorApp */,
+				BB1D3F6C209057D2003F89EB /* FitnessAdvisorAppTests */,
+				BB1D3F77209057D2003F89EB /* FitnessAdvisorAppUITests */,
+				BB1D3F53209057D2003F89EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1D3F53209057D2003F89EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D3F52209057D2003F89EB /* FitnessAdvisorApp.app */,
+				BB1D3F69209057D2003F89EB /* FitnessAdvisorAppTests.xctest */,
+				BB1D3F74209057D2003F89EB /* FitnessAdvisorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1D3F54209057D2003F89EB /* FitnessAdvisorApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB56EC1C20943D38004BEEFA /* Acoount_Info+CoreDataClass.swift */,
+				BB56EC1D20943D38004BEEFA /* Acoount_Info+CoreDataProperties.swift */,
+				BB56EC1E20943D38004BEEFA /* Health_Info+CoreDataClass.swift */,
+				BB56EC1F20943D38004BEEFA /* Health_Info+CoreDataProperties.swift */,
+				BB1D3F8C20907560003F89EB /* PersistenceService.swift */,
+				BB1D3F55209057D2003F89EB /* AppDelegate.swift */,
+				BBC6B551209149DB00A02463 /* SignUpVC.swift */,
+				BB138C242092233B00C4068B /* StartViewController.swift */,
+				BB1D3F8A2090620C003F89EB /* ViewController.swift */,
+				BB56EC3220946A9E004BEEFA /* DisplayDietPlanViewController.swift */,
+				BB56EC3820948D3E004BEEFA /* LogOutViewController.swift */,
+				BB56EC3A20949912004BEEFA /* MyProfileViewController.swift */,
+				BB56EC3420947649004BEEFA /* DisplayExpertViewController.swift */,
+				BB1D3F59209057D2003F89EB /* Main.storyboard */,
+				BBFA675620927FCB007B0FBA /* Assets.xcassets */,
+				BB1D3F61209057D2003F89EB /* LaunchScreen.storyboard */,
+				BB1D3F8720905E69003F89EB /* SWRevealViewController.m */,
+				BB1D3F8920905E7A003F89EB /* SWRevealViewController.h */,
+				BB1D3F8620905E68003F89EB /* FitnessAdvisorApp-Bridging-Header.h */,
+				BB1D3F64209057D2003F89EB /* Info.plist */,
+				BB1D3F5C209057D2003F89EB /* FitnessAdvisorApp.xcdatamodeld */,
+				BB138C262092244900C4068B /* Utils.swift */,
+				BBC6B55320921A5A00A02463 /* CoreDataHelper.swift */,
+				BB138C28209258B600C4068B /* BodyTypeViewController.swift */,
+				BB138C2A20925E2E00C4068B /* BasicDetailsViewController.swift */,
+				BB138C2C20925F1300C4068B /* AdditionalDetailsViewController.swift */,
+				BBFA6758209283D4007B0FBA /* HealthPlansViewController.swift */,
+				BBFA67972092A4F6007B0FBA /* QuickTipsTableViewController.swift */,
+				BBFA67992092A7C6007B0FBA /* QuickTipsTableViewCell.swift */,
+				BB56EC2420944C04004BEEFA /* DirectViewController.swift */,
+				BB56EC2620945695004BEEFA /* DietTableViewController.swift */,
+				BB56EC28209456A8004BEEFA /* ExerciseTableViewController.swift */,
+				BB56EC2A209456BB004BEEFA /* ExpertTableViewController.swift */,
+				BB56EC2C209462D8004BEEFA /* DietTableViewCell.swift */,
+				BB56EC2E209462E7004BEEFA /* ExerciseTableViewCell.swift */,
+				BB56EC30209462F1004BEEFA /* ExpertTableViewCell.swift */,
+				BB56EC3620947C1C004BEEFA /* DisplayVideoViewController.swift */,
+				BB56EC3C2094A38F004BEEFA /* DisplayQuotesViewController.swift */,
+				BB56ECB82094E132004BEEFA /* ApiViewController.swift */,
+			);
+			path = FitnessAdvisorApp;
+			sourceTree = "<group>";
+		};
+		BB1D3F6C209057D2003F89EB /* FitnessAdvisorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D3F6D209057D2003F89EB /* FitnessAdvisorAppTests.swift */,
+				BB1D3F6F209057D2003F89EB /* Info.plist */,
+			);
+			path = FitnessAdvisorAppTests;
+			sourceTree = "<group>";
+		};
+		BB1D3F77209057D2003F89EB /* FitnessAdvisorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D3F78209057D2003F89EB /* FitnessAdvisorAppUITests.swift */,
+				BB1D3F7A209057D2003F89EB /* Info.plist */,
+			);
+			path = FitnessAdvisorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1D3F51209057D2003F89EB /* FitnessAdvisorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1D3F7D209057D2003F89EB /* Build configuration list for PBXNativeTarget "FitnessAdvisorApp" */;
+			buildPhases = (
+				BB1D3F4E209057D2003F89EB /* Sources */,
+				BB1D3F4F209057D2003F89EB /* Frameworks */,
+				BB1D3F50209057D2003F89EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessAdvisorApp;
+			productName = FitnessAdvisorApp;
+			productReference = BB1D3F52209057D2003F89EB /* FitnessAdvisorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB1D3F68209057D2003F89EB /* FitnessAdvisorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1D3F80209057D2003F89EB /* Build configuration list for PBXNativeTarget "FitnessAdvisorAppTests" */;
+			buildPhases = (
+				BB1D3F65209057D2003F89EB /* Sources */,
+				BB1D3F66209057D2003F89EB /* Frameworks */,
+				BB1D3F67209057D2003F89EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1D3F6B209057D2003F89EB /* PBXTargetDependency */,
+			);
+			name = FitnessAdvisorAppTests;
+			productName = FitnessAdvisorAppTests;
+			productReference = BB1D3F69209057D2003F89EB /* FitnessAdvisorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB1D3F73209057D2003F89EB /* FitnessAdvisorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1D3F83209057D2003F89EB /* Build configuration list for PBXNativeTarget "FitnessAdvisorAppUITests" */;
+			buildPhases = (
+				BB1D3F70209057D2003F89EB /* Sources */,
+				BB1D3F71209057D2003F89EB /* Frameworks */,
+				BB1D3F72209057D2003F89EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1D3F76209057D2003F89EB /* PBXTargetDependency */,
+			);
+			name = FitnessAdvisorAppUITests;
+			productName = FitnessAdvisorAppUITests;
+			productReference = BB1D3F74209057D2003F89EB /* FitnessAdvisorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1D3F4A209057D2003F89EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sanchit Ankita";
+				TargetAttributes = {
+					BB1D3F51209057D2003F89EB = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					BB1D3F68209057D2003F89EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB1D3F51209057D2003F89EB;
+					};
+					BB1D3F73209057D2003F89EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB1D3F51209057D2003F89EB;
+					};
+				};
+			};
+			buildConfigurationList = BB1D3F4D209057D2003F89EB /* Build configuration list for PBXProject "FitnessAdvisorApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1D3F49209057D2003F89EB;
+			productRefGroup = BB1D3F53209057D2003F89EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1D3F51209057D2003F89EB /* FitnessAdvisorApp */,
+				BB1D3F68209057D2003F89EB /* FitnessAdvisorAppTests */,
+				BB1D3F73209057D2003F89EB /* FitnessAdvisorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1D3F50209057D2003F89EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1D3F63209057D2003F89EB /* LaunchScreen.storyboard in Resources */,
+				BBFA675720927FCC007B0FBA /* Assets.xcassets in Resources */,
+				BB1D3F5B209057D2003F89EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1D3F67209057D2003F89EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1D3F72209057D2003F89EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1D3F4E209057D2003F89EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB56EC3320946A9E004BEEFA /* DisplayDietPlanViewController.swift in Sources */,
+				BB56EC3B20949912004BEEFA /* MyProfileViewController.swift in Sources */,
+				BB1D3F8D20907560003F89EB /* PersistenceService.swift in Sources */,
+				BB56EC2D209462D8004BEEFA /* DietTableViewCell.swift in Sources */,
+				BB56EC2720945695004BEEFA /* DietTableViewController.swift in Sources */,
+				BB1D3F5E209057D2003F89EB /* FitnessAdvisorApp.xcdatamodeld in Sources */,
+				BB56EC2520944C04004BEEFA /* DirectViewController.swift in Sources */,
+				BB138C272092244900C4068B /* Utils.swift in Sources */,
+				BB138C2B20925E2E00C4068B /* BasicDetailsViewController.swift in Sources */,
+				BB56EC3720947C1C004BEEFA /* DisplayVideoViewController.swift in Sources */,
+				BBC6B552209149DB00A02463 /* SignUpVC.swift in Sources */,
+				BB56EC3920948D3E004BEEFA /* LogOutViewController.swift in Sources */,
+				BB56EC3520947649004BEEFA /* DisplayExpertViewController.swift in Sources */,
+				BB56EC31209462F1004BEEFA /* ExpertTableViewCell.swift in Sources */,
+				BB56EC2120943D38004BEEFA /* Acoount_Info+CoreDataProperties.swift in Sources */,
+				BB138C2D20925F1300C4068B /* AdditionalDetailsViewController.swift in Sources */,
+				BB56EC2320943D38004BEEFA /* Health_Info+CoreDataProperties.swift in Sources */,
+				BB1D3F56209057D2003F89EB /* AppDelegate.swift in Sources */,
+				BB138C29209258B600C4068B /* BodyTypeViewController.swift in Sources */,
+				BB56ECB92094E132004BEEFA /* ApiViewController.swift in Sources */,
+				BBC6B55420921A5A00A02463 /* CoreDataHelper.swift in Sources */,
+				BB56EC2220943D38004BEEFA /* Health_Info+CoreDataClass.swift in Sources */,
+				BB1D3F8B2090620C003F89EB /* ViewController.swift in Sources */,
+				BB56EC3D2094A38F004BEEFA /* DisplayQuotesViewController.swift in Sources */,
+				BB138C252092233B00C4068B /* StartViewController.swift in Sources */,
+				BB56EC2B209456BB004BEEFA /* ExpertTableViewController.swift in Sources */,
+				BB56EC2020943D38004BEEFA /* Acoount_Info+CoreDataClass.swift in Sources */,
+				BB1D3F8820905E69003F89EB /* SWRevealViewController.m in Sources */,
+				BB56EC2F209462E7004BEEFA /* ExerciseTableViewCell.swift in Sources */,
+				BBFA6759209283D4007B0FBA /* HealthPlansViewController.swift in Sources */,
+				BBFA67982092A4F6007B0FBA /* QuickTipsTableViewController.swift in Sources */,
+				BB56EC29209456A8004BEEFA /* ExerciseTableViewController.swift in Sources */,
+				BBFA679A2092A7C6007B0FBA /* QuickTipsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1D3F65209057D2003F89EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1D3F6E209057D2003F89EB /* FitnessAdvisorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1D3F70209057D2003F89EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1D3F79209057D2003F89EB /* FitnessAdvisorAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB1D3F6B209057D2003F89EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1D3F51209057D2003F89EB /* FitnessAdvisorApp */;
+			targetProxy = BB1D3F6A209057D2003F89EB /* PBXContainerItemProxy */;
+		};
+		BB1D3F76209057D2003F89EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1D3F51209057D2003F89EB /* FitnessAdvisorApp */;
+			targetProxy = BB1D3F75209057D2003F89EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB1D3F59209057D2003F89EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1D3F5A209057D2003F89EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB1D3F61209057D2003F89EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1D3F62209057D2003F89EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB1D3F7B209057D2003F89EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB1D3F7C209057D2003F89EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1D3F7E209057D2003F89EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessAdvisorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.FitnessAdvisor.FitnessAdvisorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessAdvisorApp/FitnessAdvisorApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1D3F7F209057D2003F89EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessAdvisorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.FitnessAdvisor.FitnessAdvisorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessAdvisorApp/FitnessAdvisorApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB1D3F81209057D2003F89EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessAdvisorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.FitnessAdvisor.FitnessAdvisorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessAdvisorApp.app/FitnessAdvisorApp";
+			};
+			name = Debug;
+		};
+		BB1D3F82209057D2003F89EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessAdvisorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.FitnessAdvisor.FitnessAdvisorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessAdvisorApp.app/FitnessAdvisorApp";
+			};
+			name = Release;
+		};
+		BB1D3F84209057D2003F89EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessAdvisorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.FitnessAdvisor.FitnessAdvisorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessAdvisorApp;
+			};
+			name = Debug;
+		};
+		BB1D3F85209057D2003F89EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessAdvisorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.FitnessAdvisor.FitnessAdvisorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessAdvisorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1D3F4D209057D2003F89EB /* Build configuration list for PBXProject "FitnessAdvisorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1D3F7B209057D2003F89EB /* Debug */,
+				BB1D3F7C209057D2003F89EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1D3F7D209057D2003F89EB /* Build configuration list for PBXNativeTarget "FitnessAdvisorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1D3F7E209057D2003F89EB /* Debug */,
+				BB1D3F7F209057D2003F89EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1D3F80209057D2003F89EB /* Build configuration list for PBXNativeTarget "FitnessAdvisorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1D3F81209057D2003F89EB /* Debug */,
+				BB1D3F82209057D2003F89EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1D3F83209057D2003F89EB /* Build configuration list for PBXNativeTarget "FitnessAdvisorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1D3F84209057D2003F89EB /* Debug */,
+				BB1D3F85209057D2003F89EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB1D3F5C209057D2003F89EB /* FitnessAdvisorApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB1D3F5D209057D2003F89EB /* FitnessAdvisorApp.xcdatamodel */,
+			);
+			currentVersion = BB1D3F5D209057D2003F89EB /* FitnessAdvisorApp.xcdatamodel */;
+			path = FitnessAdvisorApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB1D3F4A209057D2003F89EB /* Project object */;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Acoount_Info" representedClassName="Acoount_Info" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSignedIn" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="last_login" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profile_picture" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="health_info" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Health_Info" syncable="YES"/>
+    </entity>
+    <entity name="Health_Info" representedClassName="Health_Info" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="body_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drinking" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="heart_problems" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lifestyle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plan_generated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="smoking" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="training" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Acoount_Info" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Health_Info" positionX="-54" positionY="45" width="128" height="210"/>
+    </elements>
+</model>
